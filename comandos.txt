@@ -1,0 +1,26 @@
+//para iniciar proyecto
+php artisan serve
+
+//crear modelos
+php artisan make:model nombre
+//controladores
+php artisan make:controller nombre
+//crear migracion
+php artisan make:migration nombre
+
+//ejecutar migraciones
+php artisan migrate
+
+//dezhacer una migracion
+php artisan migrate:rollback
+
+//limpiar configuraciones
+php artisan cache:clear
+php artisan view:clear
+php artisan config:clear
+
+//generar key de aplicacion
+php artisan key:generate
+
+
+
